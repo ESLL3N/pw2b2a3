@@ -10,8 +10,9 @@ public class NumerosController{
     @Value("${aluno}")
     private String nome;
 
-    @RequestMapping
+    @RequestMapping("/")
     public String calc(Model model) {
+
         int[] resultado = null;
         for(int val = 2; val < 30 ; val++) {
             if(val % 2 == 0){

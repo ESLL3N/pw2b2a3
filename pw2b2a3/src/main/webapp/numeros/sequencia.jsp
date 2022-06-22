@@ -12,7 +12,7 @@
 <body>
     <h1>Resultado</h1>
     <ul>
-        <h2>${aluno}</h2>
+        <h2>ETEC Professor Mário Antônio Verza</h2>
         <c:forEach var="valor" items="${valores}">
             <li>${valor}</li>
         </c:forEach>
